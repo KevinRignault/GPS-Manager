@@ -1,5 +1,5 @@
 # GPS-Manager [WIP]
-Functions to manage gps coordinates
+NodeJS module to manage gps coordinates
 
 - toRad : Convert degrees to radians
 - toDeg : Convert radians to degrees
