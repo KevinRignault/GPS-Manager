@@ -1,6 +1,8 @@
 //-- Include module
 var gps = require('./gps-manager');
 
+
+
 //-- Degrees to radians
 var toRad = gps.toRad(48.2320728);
 console.log(toRad);
@@ -12,3 +14,7 @@ console.log(toDeg);
 //-- Mid point of two coordinates points
 var midPoint = gps.getMiddle(48.2320728, 4.1482735, 48.2320524, 4.1480716);
 console.log(midPoint);
+
+//-- Distance between two coordinates points
+var distance = gps.getDistance(48.2320728, 4.1482735, 48.2320524, 4.1480716);
+console.log(distance);
