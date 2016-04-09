@@ -1,6 +1,12 @@
 # GPS-Manager [WIP]
 Node.js module to manage gps coordinates points
 
+## Installation
+
+```
+npm install gps-manager
+```
+
 ## Usage
 
 ###.toRad(val) 
@@ -35,7 +41,7 @@ Get distance between two gps coordinates points
 ## Example
 
 ```javascript
-var gps = require('./gps-manager');
+var gps = require('gps-manager');
 
 //-- Convert to radians
 var toRad = gps.toRad(48.2320728);
