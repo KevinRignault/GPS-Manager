@@ -3,19 +3,19 @@ NodeJS module to manage gps coordinates
 
 ## Usage
 
-.toRad(val) 
+###.toRad(val) 
 Convert degrees to radians
 
 - `val`: Degree value  
 
 
-.toDeg(val)
+###.toDeg(val)
 Convert radians to degrees
 
 - `val`: Radian value
 
 
-.getMiddle(lat1,lng1,lat2,lng2)
+###.getMiddle(lat1,lng1,lat2,lng2)
 Get midpoint of two gps coordinates points
 
 - `lat1`: Point 1 latitude
@@ -24,7 +24,7 @@ Get midpoint of two gps coordinates points
 - `lng2`: Point 2 longitude 
 
 
-.getDistance(lat1,lng1,lat2,lng2)
+###.getDistance(lat1,lng1,lat2,lng2)
 Get distance between two gps coordinates points
 
 - `lat1`: Point 1 latitude
