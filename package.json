@@ -1,6 +1,6 @@
 {
   "name": "gps-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Manage GPS coordinates points",
   "main": "gps-manager.js",
   "author": "Kevin Rignault <contact@kevinrignault.fr> (http://www.kevinrignault.fr)",
