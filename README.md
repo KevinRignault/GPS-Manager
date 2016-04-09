@@ -10,7 +10,6 @@ Convert degrees to radians
 
 
 .toDeg(val)
-
 Convert radians to degrees
 
 - `val`: Radian value
