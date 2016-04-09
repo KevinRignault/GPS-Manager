@@ -1,0 +1,38 @@
+{
+  "name": "gps-manager",
+  "description": "Manage GPS coordinates points",
+  "version": "1.0.0",
+  "author": {
+    "name": "Kévin Rignault",
+    "email": "contact@kevinrignault.fr"
+  },
+  "license": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KevinRignault/GPS-Manager"
+  },
+  "keywords": [
+    "gps",
+    "coordinates",
+    "points",
+    "latitude",
+    "longitude",
+    "radians",
+    "degrees"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "files": [
+    "gps-manager.js",
+    "README.md",
+    "test.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/KevinRignault/GPS-Manager/issues"
+  }
+}

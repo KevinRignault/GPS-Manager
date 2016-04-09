@@ -1,8 +1,6 @@
 //-- Include module
 var gps = require('./gps-manager');
 
-
-
 //-- Degrees to radians
 var toRad = gps.toRad(48.2320728);
 console.log(toRad);
