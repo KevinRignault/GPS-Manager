@@ -3,7 +3,7 @@ NodeJS module to manage gps coordinates
 
 ## Usage
 
-.toRad(val)
+.toRad(val) 
 Convert degrees to radians
 
 - `val`: Degree value  
