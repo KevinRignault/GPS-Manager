@@ -1,16 +1,18 @@
 {
   "name": "gps-manager",
-  "description": "Manage GPS coordinates points",
   "version": "1.0.0",
-  "author": {
-    "name": "Kévin Rignault",
-    "email": "contact@kevinrignault.fr"
-  },
-  "license": "",
+  "description": "Manage GPS coordinates points",
+  "main": "gps-manager.js",
+  "author": "Kevin Rignault <contact@kevinrignault.fr> (http://www.kevinrignault.fr)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/KevinRignault/GPS-Manager"
+    "url": "git+https://github.com/KevinRignault/GPS-Manager.git"
   },
+  "files": [
+    "gps-manager.js",
+    "README.md",
+    "test.js"
+  ],
   "keywords": [
     "gps",
     "coordinates",
@@ -20,19 +22,12 @@
     "radians",
     "degrees"
   ],
-  "dependencies": {
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-  },
-  "engines": {
-    "node": ">= 0.10.0"
-  },
-  "files": [
-    "gps-manager.js",
-    "README.md",
-    "test.js"
-  ],
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/KevinRignault/GPS-Manager/issues"
-  }
+  },
+  "homepage": "https://github.com/KevinRignault/GPS-Manager#readme"
 }
