@@ -1,6 +1,12 @@
 # GPS-Manager [WIP]
 Node.js module to manage gps coordinates points
 
+## Installation
+
+```
+npm install gps-manager
+```
+
 ## Usage
 
 ###.toRad(val) 
