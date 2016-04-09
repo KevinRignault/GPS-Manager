@@ -31,3 +31,21 @@ Get distance between two gps coordinates points
 - `lng1`: Point 1 longitude
 - `lat2`: Point 2 latitude
 - `lng2`: Point 2 longitude 
+
+## Example
+
+```javascript
+var gps = require('./gps-manager');
+
+//-- Convert to radians
+var toRad = gps.toRad(48.2320728);
+
+//-- Convert to degrees
+var toDeg = gps.toDeg(0.8418084754216004);
+
+//-- Mid point of two coordinates points
+var midPoint = gps.getMiddle(48.2320728, 4.1482735, 48.2320524, 4.1480716);
+
+//-- Distance between two coordinates points
+var distance = gps.getDistance(48.2320728, 4.1482735, 48.2320524, 4.1480716);
+```
