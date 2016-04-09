@@ -4,6 +4,20 @@
   "description": "Manage GPS coordinates points",
   "main": "gps-manager.js",
   "author": "Kevin Rignault <contact@kevinrignault.fr> (http://www.kevinrignault.fr)",
+  "contributors": [
+    {
+      "name": "Kévin Rignault",
+      "email": "contact@kevinrignault.fr",
+      "website": "http://www.kevinrignault.fr",
+      "github": "https://github.com/KevinRignault/"
+    },
+    {
+      "name": "Romain Rui",
+      "email": "",
+      "website": "",
+      "github": "https://github.com/hadrink/"
+    },
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KevinRignault/GPS-Manager.git"
