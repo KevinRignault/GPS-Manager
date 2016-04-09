@@ -1,5 +1,5 @@
 # GPS-Manager [WIP]
-NodeJS module to manage gps coordinates
+Node.js module to manage gps coordinates
 
 ## Usage
 
